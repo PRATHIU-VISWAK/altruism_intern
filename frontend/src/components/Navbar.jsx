@@ -8,8 +8,8 @@ export const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold z-10">SHE SHARE VACATION RENTALS</div>
         <div className="flex">         
-          <Button className="mr-6 p-4 bg-pink-400"><Link to="/register">Register</Link></Button>
-          <Button className="mr-6 p-4 bg-pink-400"><Link to="/login">Log In</Link></Button>
+          <Button className="mr-6 p-4 bg-pink-400 mt-2"><Link to="/Register">Register</Link></Button>
+          <Button className="mr-6 p-4 bg-pink-400 mt-2"><Link to="/Login">Log In</Link></Button>
         </div>
       </div>
     </div>
